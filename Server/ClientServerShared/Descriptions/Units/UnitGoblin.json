@@ -1,0 +1,24 @@
+{
+    "Prefab":{
+        "Key":"UnitGoblin"
+    },
+    "MoveSpeed":1,
+    "BaseDamage":5,
+    "BaseHealth":60,
+    "AttackType":[
+        0,
+        {
+            "ProjectileSpeed":4,
+            "Projectile":{
+                "Key":"ProjectileArrow"
+            },
+            "Range":4,
+            "Interval":1,
+            "AnimationTime":0.1,
+            "HitFx":{
+                "Key":null
+            }
+        }
+    ],
+    "Id":"UnitGoblin"
+}

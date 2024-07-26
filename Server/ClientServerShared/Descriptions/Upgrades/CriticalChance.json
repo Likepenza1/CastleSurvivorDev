@@ -1,0 +1,27 @@
+{
+    "Name":"Critical chance",
+    "Levels":[
+        {
+            "Resource":{
+                "Id":"Gold"
+            },
+            "UpgradePrice":100,
+            "Value":1
+        },
+        {
+            "Resource":{
+                "Id":"Gold"
+            },
+            "UpgradePrice":100,
+            "Value":2
+        },
+        {
+            "Resource":{
+                "Id":"Gold"
+            },
+            "UpgradePrice":100,
+            "Value":3
+        }
+    ],
+    "Id":"CriticalChance"
+}

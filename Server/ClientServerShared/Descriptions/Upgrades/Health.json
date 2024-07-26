@@ -1,0 +1,27 @@
+{
+    "Name":"Health",
+    "Levels":[
+        {
+            "Resource":{
+                "Id":"Gold"
+            },
+            "UpgradePrice":100,
+            "Value":100
+        },
+        {
+            "Resource":{
+                "Id":"Gold"
+            },
+            "UpgradePrice":100,
+            "Value":200
+        },
+        {
+            "Resource":{
+                "Id":"Gold"
+            },
+            "UpgradePrice":100,
+            "Value":300
+        }
+    ],
+    "Id":"Health"
+}

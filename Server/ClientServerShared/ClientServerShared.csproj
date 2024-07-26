@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <LangVersion>9</LangVersion>
+        <RootNamespace />
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MessagePack" Version="3.0.54-alpha" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Sirenix.OdinInspector.Attributes">
+        <HintPath>..\UnityServer\UnityEngineServer\Odin\Sirenix.OdinInspector.Attributes.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+    
+    <ItemGroup>
+      <Reference Include="Core">
+        <HintPath>Source\Core.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\UnityServer\UnityServer.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Descriptions\Resources\" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="Descriptions\**">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+</Project>

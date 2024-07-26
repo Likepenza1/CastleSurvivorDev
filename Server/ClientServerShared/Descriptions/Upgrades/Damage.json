@@ -1,0 +1,27 @@
+{
+    "Name":"Damage",
+    "Levels":[
+        {
+            "Resource":{
+                "Id":"Gold"
+            },
+            "UpgradePrice":100,
+            "Value":10
+        },
+        {
+            "Resource":{
+                "Id":"Gold"
+            },
+            "UpgradePrice":100,
+            "Value":20
+        },
+        {
+            "Resource":{
+                "Id":"Gold"
+            },
+            "UpgradePrice":100,
+            "Value":30
+        }
+    ],
+    "Id":"Damage"
+}

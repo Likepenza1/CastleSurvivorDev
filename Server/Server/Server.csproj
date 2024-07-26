@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <LangVersion>9</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ClientServerShared\ClientServerShared.csproj" />
+      <ProjectReference Include="..\UnityServer\UnityServer.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Core">
+        <HintPath>..\ClientServerShared\Source\Core.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="ServerLogic\Players\Appearance\" />
+    </ItemGroup>
+
+</Project>

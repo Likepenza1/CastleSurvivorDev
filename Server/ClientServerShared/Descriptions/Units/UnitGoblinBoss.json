@@ -1,0 +1,20 @@
+{
+    "Prefab":{
+        "Key":"UnitGoblinBoss"
+    },
+    "MoveSpeed":1,
+    "BaseDamage":25,
+    "BaseHealth":250,
+    "AttackType":[
+        1,
+        {
+            "Range":1,
+            "Interval":1,
+            "AnimationTime":0.1,
+            "HitFx":{
+                "Key":null
+            }
+        }
+    ],
+    "Id":"UnitGoblinBoss"
+}
