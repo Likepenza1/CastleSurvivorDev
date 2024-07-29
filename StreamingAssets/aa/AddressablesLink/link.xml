@@ -6,38 +6,29 @@
     <type fullname="Assets.HeroEditor4D.Common.Scripts.CharacterScripts.SpriteMapping" preserve="all" />
     <type fullname="Assets.HeroEditor4D.Common.Scripts.Collections.SpriteCollection" preserve="all" />
     <type fullname="Content.PlayerTestCharacter" preserve="all" />
-    <type fullname="Game.MainMenu.MainMenuController" preserve="all" />
-    <type fullname="Game.MainMenu.MainMenuView" preserve="all" />
-    <type fullname="Game.MainMenu.Screens.ScreensSelection" preserve="all" />
-    <type fullname="Game.MainMenu.Upgrades.UpgradePanelView" preserve="all" />
-    <type fullname="Game.MainMenu.Upgrades.UpgradesScreenController" preserve="all" />
-    <type fullname="Game.Shared.ResourceUi.ResourceView" preserve="all" />
+    <type fullname="Game.Stage.Abilities.SpawnedSpell.AutoMove" preserve="all" />
+    <type fullname="Game.Stage.Abilities.SpawnedSpell.ExplosionSpell" preserve="all" />
+    <type fullname="Game.Stage.AbilitiesSelection.AbilitiesSelectionView" preserve="all" />
+    <type fullname="Game.Stage.AbilitiesSelection.AbilityView" preserve="all" />
     <type fullname="Game.Stage.Player.Projectile.ProjectileView" preserve="all" />
     <type fullname="Game.Stage.Player.StagePlayerView" preserve="all" />
-    <type fullname="Game.Stage.StageController" preserve="all" />
-    <type fullname="Game.Stage.StageView" preserve="all" />
-    <type fullname="Game.Stage.UI.Generic.HealthBarUiImageView" preserve="all" />
-    <type fullname="Game.Stage.UI.StageUiView" preserve="all" />
     <type fullname="Game.Stage.Units.HealthBarView" preserve="all" />
     <type fullname="Game.Stage.Units.StageUnitView" preserve="all" />
     <type fullname="UnityCore.Any._2D.AutoGroupSortingOrder" preserve="all" />
     <type fullname="UnityCore.Any._2D.AutoSortingOrder" preserve="all" />
-    <type fullname="UnityCore.UI.PointerUpDownView" preserve="all" />
-    <type fullname="UnityCore.UI.State.StateGameObject" preserve="all" />
     <type fullname="UnityCore.UI.State.StateGroup" preserve="all" />
     <type fullname="UnityCore.UI.State.StateImage" preserve="all" />
-    <type fullname="UnityCore.UI.State.StateScreensGroup" preserve="all" />
+    <type fullname="UnityCore.UI.State.StateStarsGroup" preserve="all" />
+    <type fullname="UnityCore.UI.State.TweenAnimation.StateAnimationAlpha" preserve="all" />
+    <type fullname="UnityCore.UI.State.TweenAnimation.StateAnimationRectMove" preserve="all" />
     <type fullname="Assets.HeroEditor4D.Common.Scripts.Data.Expression" preserve="nothing" serialized="true" />
     <type fullname="Assets.HeroEditor4D.Common.Scripts.Data.ItemSprite" preserve="nothing" serialized="true" />
-    <type fullname="UnityCore.UI.State.StateGameObjectInfo" preserve="nothing" serialized="true" />
     <type fullname="UnityCore.UI.State.StateImageInfo" preserve="nothing" serialized="true" />
+    <type fullname="UnityCore.UI.State.TweenAnimation.StateAnimationAlphaInfo" preserve="nothing" serialized="true" />
+    <type fullname="UnityCore.UI.State.TweenAnimation.StateRectAnimationMoveInfo" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
-  </assembly>
-  <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
@@ -60,55 +51,45 @@
     <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
-  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.AudioListener" preserve="all" />
-  </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Camera" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
-    <type fullname="UnityEngine.LightmapSettings" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.Rendering.SortingGroup" preserve="all" />
-    <type fullname="UnityEngine.RenderSettings" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
     <type fullname="UnityEngine.TextAsset" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
-    <type fullname="UnityEngine.TrailRenderer" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.CircleCollider2D" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody2D" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.UI.Button" preserve="all" />
-    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
-    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
-    <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
-    <type fullname="UnityEngine.UI.Outline" preserve="all" />
-    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasGroup" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
-  </assembly>
-  <assembly fullname="ClientServerShared">
-    <type fullname="Descriptions.Types.ResourceReference" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
